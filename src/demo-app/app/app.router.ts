@@ -13,8 +13,4 @@ export const routes: Routes = [
     path: 'timer-picker',
     loadChildren: './timer-picker/timer-picker.module#TimerPickerModule',
   },
-  {
-    path: 'scrollspy',
-    loadChildren: './scrollspy/scrollspy.module#ScrollspyModule',
-  },
 ];
